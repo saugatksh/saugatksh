@@ -43,10 +43,13 @@ html, body {
 
 .loader{
     position: fixed;
-    top: 50%;
-    left: 50%;
-    height: 300%;
-    width: 300%;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
