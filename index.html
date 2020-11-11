@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="custom.css">
 </head>
 
-<body>
+<body onload="myFunction()">
     <div id="loading"></div>
     <div class="wrapper-nav">
         <div class="container">
@@ -220,6 +220,15 @@
     <script src="jquery.min.js"></script>
     <script src="popper.min.js"></script>
     <script src="bootstrap.min.js"></script>
+        
+    <script>
+        
+        var preloader = document.getElementbyId('loading');
+        function myFunction(){
+            preloader.style.display ='none';
+        }
+        
+        </script>
 </body>
 
 </html>
